@@ -4,7 +4,7 @@ function Navigation({ currentPage, handleNavClick }) {
   return (
     <div className = 'fullBar row'>
       <h1 className = 'col-md-3 p-4 col-sm-12 d-flex justify-content-center align-items-center'> Blayne Fuller </h1>
-      <ul className="navibar col-sm-12 col-md-8 d-flex justify-content-end gap-5 align-items-center">
+      <ul className="navibar col-sm-12 col-md-8 d-flex justify-content-end align-items-center">
           <a
             href="#aboutMe"
             onClick={() => handleNavClick('aboutMe')}

@@ -10,7 +10,7 @@ export default function Portfolio() {
   return (
     <div className = 'd-flex row justify-content-center gap-5'>
       <div className="portfolioImage col-lg-5">
-          <img className="image" src={gatherNow} alt="Gather Now" />
+          <img className="image" src={gatherNow} alt="Gather Now" style={{ width: '100%', height: 'auto' }}/>
         <div className="imageOverlay">
           <div className="imageDescription">
           <a href="https://github.com/Olive-Provencio-Johnson/GatherNow">
@@ -20,7 +20,7 @@ export default function Portfolio() {
         </div>
       </div>
       <div className="portfolioImage col-lg-5">
-          <img className="image" src={lyricsLegend} alt="Lyrics Legend" />
+          <img className="image" src={lyricsLegend} alt="Lyrics Legend" style={{ width: '100%', height: 'auto' }}/>
         <div className="imageOverlay">
           <div className="imageDescription">
           <a href="https://github.com/whitneywishart/project-one-lyrics-legend">
@@ -30,7 +30,7 @@ export default function Portfolio() {
         </div>
       </div>
       <div className="portfolioImage col-lg-5">
-          <img className="image" src={ecommBackend} alt="Ecommerce Backend" />
+          <img className="image" src={ecommBackend} alt="Ecommerce Backend" style={{ width: '100%', height: 'auto' }}/>
         <div className="imageOverlay">
           <div className="imageDescription">
           <a href="https://github.com/blayne-04/EComm_backend">
@@ -40,7 +40,7 @@ export default function Portfolio() {
         </div>
       </div>
       <div className="portfolioImage col-lg-5">
-          <img className="image" src={svgLogogen} alt="svgLogogen" />
+          <img className="image" src={svgLogogen} alt="svgLogogen" style={{ width: '100%', height: 'auto' }}/>
         <div className="imageOverlay">
           <div className="imageDescription">
           <a href="https://github.com/blayne-04/svg_logoGen">
@@ -50,7 +50,7 @@ export default function Portfolio() {
         </div>
       </div>
       <div className="portfolioImage col-lg-5">
-          <img className="image" src={weatherApp} alt="Weather App" />
+          <img className="image" src={weatherApp} alt="Weather App" style={{ width: '100%', height: 'auto' }}/>
         <div className="imageOverlay">
           <div className="imageDescription">
           <a href="https://github.com/blayne-04/weather_app">
@@ -60,7 +60,7 @@ export default function Portfolio() {
         </div>
       </div>
       <div className="portfolioImage col-lg-5">
-          <img className="image" src={socialNetwork} alt="Social Network API" />
+          <img className="image" src={socialNetwork} alt="Social Network API" style={{ width: '100%', height: 'auto' }}/>
         <div className="imageOverlay">
           <div className="imageDescription">
           <a href="https://github.com/blayne-04/social_network_api">

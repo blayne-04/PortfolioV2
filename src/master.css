@@ -10,9 +10,6 @@
   overflow: hidden;
 }
 
-.aboutMeP{
-  margin-top: 40px;
-}
 .fullBar {
   background-color: var(--primary)
 }
@@ -34,7 +31,6 @@
   background-color: var(--buttons);
   padding: 10px;
   border-radius: 10px;
-  gap: 20px;
   color: var(--text);
 }
 
@@ -52,6 +48,13 @@
 
 .submitBtn:hover{
   background-color: var(--secondary)
+}
+
+.profilePic{
+  border-radius: 50px;
+  width: 10%;
+  height: auto;
+  margin: 2%
 }
 
 .footer{
@@ -72,7 +75,7 @@
 .imageOverlay{
   position: absolute;
   top: 0;
-  width: 103%;
+  width: 97%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
   color: var(--items);
@@ -91,4 +94,16 @@
 .portfolioImage:hover .imageOverlay{
   opacity: 1;
   z-index: 1
+}
+
+@media (max-width: 768px) {
+  .profilePic {
+    width: 100%;
+  }
+  .navibar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
 }
